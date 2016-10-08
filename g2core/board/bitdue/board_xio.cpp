@@ -57,9 +57,9 @@ MOTATE_SET_USB_SERIAL_NUMBER_STRING_FROM_CHIPID()
 
 
 //******** SPI ********
-#if XIO_HAS_SPI
-Motate::SPI<kSocket4_SPISlaveSelectPinNumber> spi;
-#endif
+//#if XIO_HAS_SPI
+//Motate::SPI<kSocket4_SPISlaveSelectPinNumber> spi;
+//#endif
 
 
 //******** UART ********
@@ -78,9 +78,9 @@ void board_hardware_init(void)  // called 1st
 void board_xio_init(void)  // called later than board_hardware_init (there are thing in between)
 {
 // Init SPI
-#if XIO_HAS_SPI
- //handled internally for now
-#endif
+//#if XIO_HAS_SPI
+// handled internally for now
+//#endif
 
 // Init UART
 #if XIO_HAS_UART
