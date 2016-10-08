@@ -35,6 +35,13 @@ ifeq ("$(CONFIG)","ShapeokoDualY")
     SETTINGS_FILE="settings_shapeoko2.h"
 endif
 
+ifeq ("$(CONFIG)","BitDueLathe")
+    ifeq ("$(BOARD)","NONE")
+        BOARD=bitduea
+    endif
+    SETTINGS_FILE="settings_bitduelathe.h"
+endif
+
 ifeq ("$(CONFIG)","Othermill")
     ifeq ("$(BOARD)","NONE")
         BOARD=g2v9k

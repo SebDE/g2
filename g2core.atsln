@@ -11,6 +11,7 @@ Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Motate", "Motate\Motate.cpp
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		bitduelathe-bitdue|ARM = bitduelathe-bitdue|ARM
 		G2v9k|ARM = G2v9k|ARM
 		gShield|ARM = gShield|ARM
 		Makeblock-v9|ARM = Makeblock-v9|ARM
@@ -28,10 +29,12 @@ Global
 		Zen7x12|ARM = Zen7x12|ARM
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.bitduelathe-bitdue|ARM.ActiveCfg = bitduelathe_bitdue|ARM
+		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.bitduelathe-bitdue|ARM.Build.0 = bitduelathe_bitdue|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.G2v9k|ARM.ActiveCfg = G2v9k|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.G2v9k|ARM.Build.0 = G2v9k|ARM
-		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.gShield|ARM.ActiveCfg = gShield|ARM
-		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.gShield|ARM.Build.0 = gShield|ARM
+		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.gShield|ARM.ActiveCfg = Ultimakerv9k|ARM
+		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.gShield|ARM.Build.0 = Ultimakerv9k|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Makeblock-v9|ARM.ActiveCfg = Makeblock-v9|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Makeblock-v9|ARM.Build.0 = Makeblock-v9|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Othermill|ARM.ActiveCfg = Othermill|ARM
@@ -57,6 +60,7 @@ Global
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Ultimakerv9k|ARM.Build.0 = Ultimakerv9k|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Zen7x12|ARM.ActiveCfg = Zen7x12|ARM
 		{44EA8FEC-55D7-4149-8A78-A574FC26BF51}.Zen7x12|ARM.Build.0 = Zen7x12|ARM
+		{D7779B24-5CD6-4A1B-893C-2CAE8CF7A3A0}.bitduelathe-bitdue|ARM.ActiveCfg = Stub|ARM
 		{D7779B24-5CD6-4A1B-893C-2CAE8CF7A3A0}.G2v9k|ARM.ActiveCfg = Stub|ARM
 		{D7779B24-5CD6-4A1B-893C-2CAE8CF7A3A0}.gShield|ARM.ActiveCfg = Stub|ARM
 		{D7779B24-5CD6-4A1B-893C-2CAE8CF7A3A0}.Makeblock-v9|ARM.ActiveCfg = Stub|ARM
