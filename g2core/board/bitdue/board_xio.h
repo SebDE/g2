@@ -41,10 +41,10 @@ extern decltype(usb.mixin<1>::Serial)& SerialUSB1;
 
 
 //******** SPI ********
-//#if XIO_HAS_SPI
-//#include "MotateSPI.h"
-//extern Motate::SPI<Motate::kSocket4_SPISlaveSelectPinNumber> spi;
-//#endif
+#if XIO_HAS_SPI
+#include "MotateSPI.h"
+extern Motate::SPI<Motate::kSocket4_SPISlaveSelectPinNumber> spi;
+#endif
 
 //******** UART ********
 #if XIO_HAS_UART

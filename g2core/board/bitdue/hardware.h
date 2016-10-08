@@ -56,10 +56,10 @@ enum hwPlatform {
 //  #if (MOTORS >= 6)  will work
 
 #define AXES 6         // number of axes supported in this version
-#define HOMING_AXES 0  // number of axes that can be homed (assumes Zxyabc sequence)
-#define MOTORS 2       // number of motors on the board
-#define COORDS 1       // number of supported coordinate systems (1-6)
-#define PWMS 6         // number of supported PWM channels
+#define HOMING_AXES 4  // number of axes that can be homed (assumes Zxyabc sequence)
+#define MOTORS 4       // number of motors on the board
+#define COORDS 6       // number of supported coordinate systems (1-6)
+#define PWMS 2         // number of supported PWM channels
 
 
 ////////////////////////////
@@ -186,25 +186,25 @@ stat_t hw_get_id(nvObj_t *nv);
 
 #ifdef __TEXT_MODE
 
-	void hw_print_fb(nvObj_t *nv);
+    void hw_print_fb(nvObj_t *nv);
     void hw_print_fbs(nvObj_t *nv);
     void hw_print_fbc(nvObj_t *nv);
-	void hw_print_fv(nvObj_t *nv);
-	void hw_print_cv(nvObj_t *nv);
-	void hw_print_hp(nvObj_t *nv);
-	void hw_print_hv(nvObj_t *nv);
-	void hw_print_id(nvObj_t *nv);
+    void hw_print_fv(nvObj_t *nv);
+    void hw_print_cv(nvObj_t *nv);
+    void hw_print_hp(nvObj_t *nv);
+    void hw_print_hv(nvObj_t *nv);
+    void hw_print_id(nvObj_t *nv);
 
 #else
 
-	#define hw_print_fb tx_print_stub
+    #define hw_print_fb tx_print_stub
     #define hw_print_fbs tx_print_stub
     #define hw_print_fbc tx_print_stub
-	#define hw_print_fv tx_print_stub
-	#define hw_print_cv tx_print_stub
-	#define hw_print_hp tx_print_stub
-	#define hw_print_hv tx_print_stub
-	#define hw_print_id tx_print_stub
+    #define hw_print_fv tx_print_stub
+    #define hw_print_cv tx_print_stub
+    #define hw_print_hp tx_print_stub
+    #define hw_print_hv tx_print_stub
+    #define hw_print_id tx_print_stub
 
 #endif // __TEXT_MODE
 

@@ -29,9 +29,9 @@ ifeq ("$(BASE_BOARD)","bitdue")
     FIRST_LINK_SOURCES += $(sort $(wildcard ${MOTATE_PATH}/Atmel_sam_common/*.cpp)) $(sort $(wildcard ${MOTATE_PATH}/Atmel_sam3x/*.cpp))
 
     # Set CHIP and export it for GDB to see
-    CHIP = SAM3X8C
+    CHIP = SAM3X8E
     export CHIP
-    CHIP_LOWERCASE = sam3x8c
+    CHIP_LOWERCASE = sam3x8e
 
     BOARD_PATH = ./board/bitdue
     SOURCE_DIRS += ${BOARD_PATH} device/step_dir_driver
